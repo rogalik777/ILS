@@ -1,12 +1,9 @@
 @media (max-width: 1200px) {
-	.container {
-		max-height: 18%;
-	}
-	.hsi-container{
-		max-height: 100px;
+	.main-window {
+		flex-wrap: wrap;
 	}
 	.column-diagramas {
-	width: 300px;
+		width: 500px;
 	}
 }
 
