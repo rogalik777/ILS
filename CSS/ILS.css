@@ -5,6 +5,9 @@
 	.hsi-container{
 		max-height: 500px;
 	}
+	.column-graph {
+		max-width: 300px;
+	}
 }
 
 .main-window {
