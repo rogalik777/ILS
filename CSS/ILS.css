@@ -1,0 +1,216 @@
+@media (max-width: 1200px) {
+	.container {
+		max-height: 18%;
+	}
+	.column-graph {
+		max-width: 300px;
+	}
+}
+
+.main-window {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column-diagramas {
+	max-width: 600px;
+	border: 3px black solid;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.column-hsi {
+	max-width: 500px;
+	padding: 10px;
+}
+
+.column-graph {
+	width: 500px;
+	border: 3px black solid;
+	padding: 10px;
+}
+
+.loc {
+	max-width: 100%;
+	transform: translate(20px, 0);
+}
+
+.gs {
+	max-width: 100%;	
+	border-top: 3px black solid;
+}
+
+.hsi-container{
+	display: flex;
+}
+
+.hsi {
+	border-radius: 20px;
+	border: 3px black solid;
+	max-width: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+.hsi img {
+	height: 100%;
+	max-width: 100%;
+}
+
+.glide-slope {
+	width: 40px;
+	border-radius: 10px;
+	border: 3px black solid;
+	margin: 0px 10px;
+	position: relative;
+}
+
+.localizer {
+	height: 40px;
+	border-radius: 10px;
+	border: 3px black solid;
+	margin-top: 10px;
+	margin-right: 62px;
+	position: relative;
+}
+
+.toggles {
+	font-weight: 800;
+	margin-top: 30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	border: 3px black solid;
+	border-radius: 20px;
+}
+
+.toggleOx {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.toggleOy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.toggleOz {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.toggles input{
+	width: 300px;
+}
+
+.rombGs {
+	position: absolute;
+	max-width: 100%;
+	top: 50%;
+	transform: translate(0px, -50%);
+}
+
+.rombLoc {
+	position: absolute;
+	max-height: 100%;
+	left: 50%;
+	transform: translate(-50%, 0px);
+}
+
+.hline {
+	position: absolute;
+	width: 1000px;
+	height: 7px;
+	background-color: pink;
+	top: 50%;
+	transform: translate(0px, -50%);
+}
+
+.vline {
+	position: absolute;
+	width: 7px;
+	height: 1000px;
+	background-color: pink;
+	left: 50%;
+	transform: translate(-50%, 0px);
+}
+
+.diagramaOne {
+	position: relative;
+}
+
+.diagramaTwo {
+	position: relative;
+}
+
+.aircraftOne {
+	position: absolute;
+	transform: rotate(45deg);
+	max-width: 40px;
+	left: 20%;
+	top: 44%;
+	z-index: 10;
+}	
+
+.aircraftTwo {
+	position: absolute;
+	max-width: 60px;
+	left: 22%;
+	top: 38%;
+	z-index: 10;
+	transform: scale(-1, 1);
+}	
+
+.graphs {
+	height: 600px;
+	max-width: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 23%;
+	position: relative;
+}
+
+.graphLoc {
+	width: 100%;
+	max-height: 100%;
+	background-color: rgba(128, 128, 128, 0.04);
+}
+
+.graphGl {
+	width: 100%;
+	max-height: 100%;
+	background-color: rgba(128, 128, 128, 0.04);
+}
+
+.abc {
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background-color: black;
+	top: 50%;
+}
+
+.ord {
+	position: absolute;
+	width: 3px;
+	height: 100%;
+	background-color: black;
+}
+
+.title {
+	text-align: center;
+	font-weight: 800;
+
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+ц<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <title>ILS</title>  
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="CSS/ILS.css">
+</head>
+<body>
+   <div class="main-window">
+      <div class="column-diagramas">
+         <div class="diagramaOne">
+            <img class="aircraftOne" src="images/aircraft.png" alt="">
+            <img class="loc" src="images/ils loc.png" alt="">
+         </div>
+         <div class="diagramaTwo">
+            <img class="aircraftTwo" src="images/aircraftSide.png" alt="">
+            <img class="gs" src="images/ils gs.png" alt="">
+         </div>
+      </div>
+      <div class="column-hsi">
+         <div class="hsi-container">
+            <div class="hsi">
+               <div class="hline"></div>
+               <div class="vline"></div>
+               <img src="images/hsi.png" alt="">
+            </div>
+            <div class="glide-slope">
+               <img class="rombGs" src="images/romb.png" alt="">
+            </div>
+         </div>
+         <div class="localizer">
+            <img class="rombLoc" src="images/romb.png" alt="">
+         </div>
+         <div class="toggles">
+            <div class="toggleOx">
+               Ox:
+               <input id="one" type="range" min="0" max="200" step="1" value="100"> 
+            </div>
+            <div class="toggleOy">
+               Oy:
+               <input id="two" type="range" min="0" max="200" step="1" value="100"> 
+            </div>
+            <div class="toggleOz">
+               Oz:
+               <input id="three" type="range" min="0" max="100" step="1" value="50"> 
+            </div>
+         </div>
+      </div>
+      <div class="column-graph">
+         <div class="graphs">
+            <div class="title">КРМ 90ГЦ</div>
+            <div class="container">
+               <div class="abc"></div>
+               <div class="ord"></div>
+               <canvas class="graphLoc graphLoc90">
+               </canvas>
+            </div>
+            <div class="title">КРМ 150ГЦ</div>
+            <div class="container">
+               <div class="abc"></div>
+               <div class="ord"></div>
+               <canvas class="graphLoc graphLoc150">
+               </canvas>
+            </div>
+            <div class="title">ГРМ 90ГЦ</div>
+            <div class="container">
+               <div class="abc"></div>
+               <div class="ord"></div>
+               <canvas class="graphGl graphGl90">
+               </canvas>
+            </div>
+            <div class="title">ГРМ 150ГЦ</div>
+            <div class="container">
+               <div class="abc"></div>
+               <div class="ord"></div>
+               <canvas class="graphGl graphGl150">
+               </canvas>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+<script src="JS/ILS.js"></script>
+</html>
