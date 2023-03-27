@@ -2,8 +2,8 @@
 	.container {
 		max-height: 18%;
 	}
-	.column-graph {
-		max-width: 300px;
+	.hsi-container{
+		max-height: 500px;
 	}
 }
 
